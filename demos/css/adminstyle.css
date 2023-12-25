@@ -164,6 +164,9 @@ body{
     font-size: 25px;
     font-weight: 600;
 }
+.trip-info table tr td a{
+    text-decoration: none;
+}
 .fix-trip-btn{
     margin-top: 2%;
     margin-left: 15%;
@@ -186,4 +189,9 @@ body{
 .fix-trip-btn>a:hover{
     background-color: black;
     color: white;
+}
+.staff-info{
+    width: 70%;
+    margin-left: 20%;
+    margin-top: 5%;
 }
