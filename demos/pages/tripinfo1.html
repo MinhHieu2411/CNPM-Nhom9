@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&amp;family=Playfair+Display:ital,wght@0,400;0,700;1,400&amp;display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/adminstyle.css">
+    <title>Admin Cong ty abc</title>
+</head>
+<body>
+    <div class="admin-nav">
+        <div class="logo">
+                <a href="#">ABCTravel</a>
+        </div>
+        <div class="nav">
+            <div class="logout-button">
+                <a href="../login.html">Đăng xuất</a>
+            </div>
+        </div>
+    </div>
+    <div class="wrapper">
+        <div class="side-bar">
+            <ul>
+                <li>
+                    <a href="tripmanage.html">
+                        <i class="fa-solid fa-plane"></i>
+                        <div class="option">Quản lý chuyến đi</div>
+                    </a>
+                </li>
+                <li>
+                    <a href="staffmanage.html">
+                        <i class="fa-solid fa-users"></i>
+                        <div class="option">Quản lý nhân sự</div>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="option-choosed">
+            <div class="trip-info">
+                <table width="800" border="0" cellspacing="4" cellpadding="3" >
+                    <tr>
+                        <th colspan="2" >THÔNG TIN CHUYẾN ĐI CD01</th>
+                    </tr>
+                    <tr>
+                        <td>ID Chuyến đi</td>
+                        <td>
+                            <TExtarea rows="1" cols="38" >CD01</TExtarea>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Điểm đến</td>
+                        <td>
+                            <textarea name="" id="" cols="38" rows="1">Mai Châu, Hòa Bình</textarea>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Ngày khởi hành</td>
+                        <td><select name="day">
+                            <option value="">Ngày 24</option>
+                        </select>
+                        <select name="month" id="">
+                            <option value="">Tháng 11</option>
+                        </select>
+                        <select name="year" id="">
+                            <option value="">2023</option>
+                        </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Ngày kết thúc</td>
+                        <td><select name="day">
+                            <option value="">Ngày 26</option>
+                        </select>
+                        <select name="month" id="">
+                            <option value="">Tháng 11</option>
+                        </select>
+                        <select name="year" id="">
+                            <option value="">2023</option>
+                        </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Thời tiết</td>
+                        <td>
+                            <textarea name="" id="" cols="38" rows="4">24/11: 16-19°C, trời có nắng nhẹ        25/11: 14-16°C, trời nhiều mây            26/11: 14-16°C, trời nhiều mây
+                            </textarea>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Số lượng khách</td>
+                        <td>
+                            <textarea name="" id="" cols="38" rows="1">8</textarea>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Phương tiện di chuyển</td>
+                        <td>
+                            <input type="checkbox" cursor="" name="" id="">Ô tô
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Nơi lưu trú</td>
+                        <td>
+                            <textarea name="" id="" cols="38" rows="2">Ngày 1: Khách sạn abc                Ngày 2: Cắm trại qua đêm ở xyz</textarea>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Kế hoạch chuyến đi</td>
+                        <td>
+                            <textarea name="" id="" cols="50" rows="15" >-24/11: khách hàng tập trung tại abc để xuất phát lúc xx giờ, xe di chuyển xx tiếng và dự kiến sẽ đến nơi lúc xx giờ. Khách hàng check-in nhận phòng tại khách sạn abc và nghỉ ngơi. xx giờ chiều sẽ tập trung tại sảnh và đi tham quan các địa điểm abc,xyz,... xx giờ tối dùng bữa tối tại khách sạn, xong khách hàng sẽ tự do tham quan, giải trí trong khoảng thời gian này.                                -25/11: xx giờ sáng tập trung tại sảnh khách sạn dùng bữa sáng, check-out và di chuyển đến tham quan bcd, đến xx giờ chiều trở về xyz hạ trại, camping qua đêm.                                        -26/11: khách hàng tự do tham quan, mua quà lưu niệm tại xyz và lên xe di chuyển về lúc xx giờ chiều.</textarea>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Hướng dẫn viên</td>
+                        <td>
+                            <textarea name="" id="" cols="38" rows="1">HDV001</textarea>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Đánh giá của khách hàng</td>
+                        <td>
+                            <textarea name="" id="" cols="50" rows="10"></textarea>
+                        </td>
+                    </tr>
+                </table>
+                
+                <div class="fix-trip-btn">
+                    <a href="formfixtrip.html">
+                        <i class="fa-solid fa-wrench"></i>
+                        <div class="option"> CHỈNH SỬA</div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--  -->
+</body>
+</html>
